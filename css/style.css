@@ -268,7 +268,7 @@ ul{
 }
 .app-logo img
 {
-  width: 100px;
+  width: 135px;
 }
 .app-logo{
     margin-top: 20px;
@@ -283,4 +283,50 @@ ul{
     background: #b5b5b5;
     height: 1px;
     margin: 20px 0;
+}
+.menu-icon{
+    width: 30px;
+    margin-left: 20px;
+    padding: 0;
+    display: none;
+}
+
+
+/*------------- media query for menu ------------*/
+
+
+@media only screen and (max-width: 800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #555;
+        width: 100%;
+        overflow: hidden;
+        transition: max-hight o.5s;
+    }
+    nav ul li 
+{
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+nav ul li a {
+    color: #fff;
+}
+.menu-icon{
+    display: block;
+    cursor: pointer;
+}
+}
+/*----------media query for less than 600 screen size-------------*/
+@media only screen and (max-width: 600px)
+{
+    .row{
+        text-align: center;
+    }
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+    }
 }
