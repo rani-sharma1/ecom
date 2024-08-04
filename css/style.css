@@ -291,9 +291,7 @@ ul{
     display: none;
 }
 
-
 /*------------- media query for menu ------------*/
-
 
 @media only screen and (max-width: 800px){
     nav ul{
@@ -321,6 +319,7 @@ nav ul li a {
 }
 }
 /*----------media query for less than 600 screen size-------------*/
+
 @media only screen and (max-width: 600px)
 {
     .row{
