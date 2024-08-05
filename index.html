@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -12,22 +12,25 @@
     <title>pocketshoping</title>
 </head>
 <body>
+
     <div class="header">
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <img src="logo image.png" width="125px">
+                    <img src="img/logo image.png" width="125px">
+                    <img src="" alt="">
                 </div>
                 <nav>
-                    <ul>
+                    <ul id="MenuItems">
                         <li><a href="">Home</a></li>
                         <li><a href="">product</a></li>
                         <li><a href="">About</a></li>
                         <li><a href="">Contact</a></li>
                         <li><a href="">Account</a></li>
                     </ul>
-                </nav>
-                <img src="cart.png" width="30px" height="30px">
+                </nav> 
+                    <img src="img/cart.png" width="35px" height="35px">
+                    <img src="img/menu.png" class="menu-icon" onclick="menutoggle()">
             </div>
         <div class="row">
             <div class="col-2">
@@ -37,7 +40,7 @@
                 <a href="" class="btn">Explore Now &#8594;</a>
             </div>
             <div class="col-2">
-                <img src="pngwing.com.png">
+                <img src="img/pngwing.com.png">
             </div>
         </div>
         </div>
@@ -48,13 +51,13 @@
         <div class="small-container">
             <div class="row">
                 <div class="col-3">
-                    <img src="Polo.webp">
+                    <img src="img/Polo.webp">
                 </div>
                 <div class="col-3">
-                    <img src="Poster.webp">
+                    <img src="img/Poster.webp">
                 </div>
                 <div class="col-3">
-                    <img src="Round-neck.webp">
+                    <img src="img/Round-neck.webp">
                 </div>
             </div>
         </div>
@@ -64,22 +67,22 @@
         <h2 class="title">Featured Products</h2>
         <div class="row">
             <div class="col-4">
-                <img src="T-shirt1.jpeg">
+                <img src="img/T-shirt1.jpeg">
                 <h4>Printed t-Shirt</h4>
                 <p>$40.00</p>
             </div>
             <div class="col-4">
-                <img src="T-shirt2.jpeg">
+                <img src="img/T-shirt2.jpeg">
                 <h4>Black Printed t-Shirt</h4>
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="T-shirt3.jpeg">
+                <img src="img/T-shirt3.jpeg">
                 <h4>Black Printed t-Shirt</h4>
                 <p>$60.00</p>
             </div>
             <div class="col-4">
-                <img src="T-shirt5.jpeg">
+                <img src="img/T-shirt5.jpeg">
                 <h4>Printed t-Shirt</h4>
                 <p>$40.00</p>
             </div>
@@ -87,44 +90,44 @@
         <h2 class="title">Latest Products</h2>
         <div class="row">
             <div class="col-4">
-                <img src="image 1.jpeg">
+                <img src="img/image 1.jpeg">
                 <h4>Man shoes</h4>
                 <p>$40.00</p>
             </div>
             <div class="col-4">
-                <img src="images 2.jpeg">
+                <img src="img/images 2.jpeg">
                 <h4>Woman shoes</h4>
                 <p>$50.00</p>
             </div>
             <div class="col-4">
-                <img src="images 3.jpeg">
+                <img src="img/images 3.jpeg">
                 <h4>Woman shoes</h4>
                 <p>$60.00</p>
             </div>
             <div class="col-4">
-                <img src="images 4.jpeg">
+                <img src="img/images 4.jpeg">
                 <h4>Man shoes</h4>
                 <p>$60.00</p>
             </div>
         </div>
         <div class="row">
             <div class="col-4">
-                <img src="images 5.jpeg">
+                <img src="img/images 5.jpeg">
                 <h4>Man shoes</h4>
                 <p>$80.00</p>
             </div>
             <div class="col-4">
-                <img src="images 6.jpeg">
+                <img src="img/images 6.jpeg">
                 <h4>kids shoes</h4>
                 <p>$70.00</p>
             </div>
             <div class="col-4">
-                <img src="images 7.jpeg">
+                <img src="img/images 7.jpeg">
                 <h4>shoes</h4>
                 <p>$90.00</p>
             </div>
             <div class="col-4">
-                <img src="images 8.jpeg">
+                <img src="img/images 8.jpeg">
                 <h4>Gents Formal shoes</h4>
                 <p>$90.00</p>
             </div>
@@ -135,7 +138,7 @@
         <div class="small-container">
             <div class="row">
                 <div class="col-2">
-                    <img src="watch.png">
+                    <img src="img/watch.png">
                 </div>
                 <div class="col-2">
                     <p>"Smartwatch: The Ultimate Wearable Tech for Convenience and Health"</p>
@@ -164,7 +167,7 @@
                             <i class="fa-regular fa-star"></i>
                             <i class="fa-regular fa-star"></i>
                         </div>
-                        <img src="user1.jpeg">
+                        <img src="img/user1.jpeg">
                         <h3>Sen parkar</h3>
                 </div>
                 <div class="col-3">
@@ -178,7 +181,7 @@
                             <i class="fa fa-star"></i>
                             <i class="fa-regular fa-star"></i>  
                         </div>
-                        <img src="user2.jpeg">
+                        <img src="img/user2.jpeg">
                         <h3>Jhon</h3>
                 </div>
                 <div class="col-3">
@@ -192,7 +195,7 @@
                             <i class="fa-regular fa-star"></i>
                             <i class="fa-regular fa-star"></i>
                         </div>
-                        <img src="user3.jpeg">
+                        <img src="img/user3.jpeg">
                         <h3>Nick</h3>
                 </div>
             </div>
@@ -203,19 +206,19 @@
         <div class="small-container">
             <div class="row">
                 <div class="col-5">
-                    <img src="brand1.png">
+                    <img src="img/brand1.png">
                 </div>
                 <div class="col-5">
-                    <img src="brand2.png">
+                    <img src="img/brand2.png">
                 </div>
                 <div class="col-5">
-                    <img src="brand3.png">
+                    <img src="img/brand3.png">
                 </div>
                 <div class="col-5">
-                    <img src="brand4.png">
+                    <img src="img/brand4.png">
                 </div>
                 <div class="col-5">
-                    <img src="brand5.png">
+                    <img src="img/brand5.png">
                 </div>
             </div>
         </div>
@@ -228,9 +231,13 @@
                 <div class="footer-col-1">
                     <h3>Dowload Our App</h3>
                     <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="img/App1.png">
+                        <img src="img/App2.png">
+                    </div>
                 </div>
                 <div class="footer-col-2">
-                    <img src="logo image.png">
+                    <img src="img/logo image.png">
                     <p>A pocket shopping website offers convenient mobile shopping with easy browsing, purchasing, and real-time order tracking.</p>
                 </div>
                 <div class="footer-col-3">
@@ -252,7 +259,27 @@
                     </ul>
                  </div>
             </div>
+            <hr>
+                 <p class="copyright">copyright 2024-Sharma project</p>
         </div>
     </div>
+<!--------------js for toggle menu--------------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if( MenuItems.style.maxHeight == "0px")
+            { 
+                MenuItems.style.maxHeight = "200px";
+            }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
 </body>
 </html>
